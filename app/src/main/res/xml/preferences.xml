@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="setting_general"
+        android:title="@string/setting_general">
+
+        <CheckBoxPreference
+            android:key="setting_disable_history"
+            android:title="@string/setting_dishistory"
+            android:summaryOn="@string/setting_dishistory_sumon"
+            android:summaryOff="@string/setting_dishistory_sumoff"
+            android:defaultValue="false"
+            android:checked="false"
+            />
+
+        <Preference
+            android:key="setting_clear_history"
+            android:title="@string/setting_clear_history"
+            />
+
+        <Preference
+            android:key="setting_clear_favorite"
+            android:title="@string/setting_clear_favorite"
+            />
+
+        <Preference
+            android:key="setting_clear_cache"
+            android:title="@string/setting_clear_cache"
+            />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:key="setting_display"
+        android:title="@string/setting_display">
+
+        <Preference
+            android:key="setting_theme"
+            android:title="@string/setting_theme"
+            />
+
+        <Preference
+            android:key="setting_background"
+            android:title="@string/setting_background"
+            />
+
+        <EditTextPreference
+            android:key="setting_font_size"
+            android:title="@string/setting_font_size"
+            android:summary="@string/def_read_font_size"
+            android:text="@string/def_read_font_size"
+            android:maxLines="1"
+            />
+
+        <Preference
+            android:key="setting_font_color"
+            android:title="@string/setting_font_color"
+            />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

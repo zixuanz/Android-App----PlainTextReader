@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zixuanz.plaintextreader.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/tb_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_toolbar_height"
+            android:background="@color/bg_topbar">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/menu_file"
+                android:textColor="@color/text_topbar"
+                android:textSize="18sp" />
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/div_main"
+        android:layout_below="@+id/tb_main"
+        android:paddingTop="@dimen/activity_vertical_margin"/>
+
+
+    <View
+        android:id="@+id/div_main"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_above="@+id/rg_main"
+        android:background="@color/div_white" />
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_white"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_file"
+            style="@style/main_radiogroup"
+            android:drawableTop="@drawable/menu_file"
+            android:text="@string/menu_file" />
+
+        <RadioButton
+            android:id="@+id/rb_history"
+            style="@style/main_radiogroup"
+            android:drawableTop="@drawable/menu_history"
+            android:text="@string/menu_history" />
+
+        <RadioButton
+            android:id="@+id/rb_favorite"
+            style="@style/main_radiogroup"
+            android:drawableTop="@drawable/menu_favorite"
+            android:text="@string/menu_favorite" />
+
+        <RadioButton
+            android:id="@+id/rb_setting"
+            style="@style/main_radiogroup"
+            android:drawableTop="@drawable/menu_setting"
+            android:text="@string/menu_setting" />
+
+    </RadioGroup>
+
+</RelativeLayout>

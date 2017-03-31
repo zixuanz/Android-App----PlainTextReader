@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">PlainTextReader</string>
+
+    <string name="OK">OK</string>
+    <string name="No">No</string>
+    <string name="Yes">Yes</string>
+    <string name="ERROR">ERROR</string>
+    <string name="Gotit">Got it!</string>
+    <string name="Warning">Warning</string>
+    <string name="Info">Info</string>
+
+    <string name="file_utils_failread">Failed to read file. Please retry.</string>
+
+    <!--CollectionFragment-->
+    <string name="filefrag_file_not_existed">The chosen file may not be existed. App will refresh current list.</string>
+
+    <string name="collect_file_not_existed">Failed to read file. File may not be existed. \nWould you like to remove the file from history?</string>
+
+    <string name="collect_file_removed_yes">Remove invalid file path from list successfully.</string>
+    <string name="collect_file_removed_no">Failed to remove invalid file. Try manually.</string>
+
+    <string name="collect_list_remove">Are you sure to remove current item from list?</string>
+    <string name="collect_list_removed_yes">Item is removed.</string>
+    <string name="collect_list_removed_no">Failed to remove.</string>
+
+    <string name="permission_explain">Text Reader need permission to access the storage. If permission is denied, Text Reader cannot work and will exit. To turn on permission, please go to "Settings->Apps->Text Reader->Permissions" to switch. </string>
+
+    <string name="read_file_add_success">File is successfully added to favorite.</string>
+    <string name="read_file_add_fail">Fail to add file into favorite.</string>
+
+    <string name="pref_clear_history_message">Are you sure to clear history?</string>
+    <string name="pref_clear_history_succ">Succeed to clear history</string>
+    <string name="pref_clear_history_fail">Failed to clear history</string>
+
+    <string name="pref_clear_favorite_message">Are you sure to clear favorite?</string>
+    <string name="pref_clear_favorite_succ">Succeed to clear favorite</string>
+    <string name="pref_clear_favorite_fail">Failed to clear favorite</string>
+
+    <string name="pref_clear_cache_message">Are you sure to clear cache? This will clear your last read place.</string>
+    <string name="pref_clear_cache_succ">Succeed to clear cache</string>
+    <string name="pref_clear_cache_fail">Failed to clear cache</string>
+
+    <string name="pref_user_cancel">User canceled action</string>
+
+
+
+    <string name="context_menu_add_favorite">Add to Favorite</string>
+
+
+    <!--Main Activity-->
+    <string name="menu_file" translatable="true">Folder</string>
+    <string name="menu_history" translatable="true">History</string>
+    <string name="menu_favorite" translatable="true">Favorite</string>
+    <string name="menu_setting" translatable="true">Setting</string>
+
+
+    <!--Read Activity-->
+    <string name="menu_tts">TTS</string>
+    <string name="menu_like">Like</string>
+    <string name="menu_increase">Increase</string>
+    <string name="menu_decrease">Decrease</string>
+
+    <string name="toast_font_size">Font size:</string>
+
+
+
+    <!--settings  string-->
+    <string name="setting_general" translatable="true">General</string>
+
+    <string name="setting_dishistory">Disable History</string>
+    <string name="setting_dishistory_sumon">History is disabled</string>
+    <string name="setting_dishistory_sumoff">History is enabled</string>
+
+    <string name="setting_clear_history">Clear History</string>
+    <string name="setting_clear_favorite">Clear Favorite</string>
+    <string name="setting_clear_cache">Clear Cache</string>
+
+    <string name="setting_display">Display</string>
+    <string name="setting_sum">Customize display</string>
+
+    <string name="setting_theme">Theme</string>
+
+
+    <string name="setting_display_app">App View</string>
+    <string name="setting_display_read">Read View</string>
+
+    <string name="setting_background">Background</string>
+    <string name="setting_background_dialog">Please choose a color</string>
+
+    <string name="setting_font_size">Font Size</string>
+    <string name="setting_font_size_dialog">Please enter a size</string>
+
+    <string name="setting_font_color">Font Color</string>
+
+</resources>

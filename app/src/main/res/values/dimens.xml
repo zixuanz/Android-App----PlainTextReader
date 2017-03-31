@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="activity_toolbar_height">48dp</dimen>
+
+
+    <!--default setting value-->
+    <dimen name="def_read_font_size">12px</dimen>
+    <string name="def_read_font_size">12px</string>
+
+    <dimen name="max_read_font_size">100px</dimen>
+
+</resources>
